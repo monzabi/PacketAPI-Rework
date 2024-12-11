@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'application'
+    id "com.gradleup.shadow" version "8.3.5"
+}
+
+group = 'net.monzabi.packetapi'
+version = '1.0-SNAPSHOT'
+
+application {
+    mainClassName = group + ".PacketAPI"
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "jitpack"
+        url = "https://jitpack.io"
+    }
+}
+
+dependencies {
+    compileOnly 'com.github.azbh111:spigot-1.8.8:R'
+
+    compileOnly("org.projectlombok:lombok:1.18.34")
+    annotationProcessor("org.projectlombok:lombok:1.18.34")
+}
