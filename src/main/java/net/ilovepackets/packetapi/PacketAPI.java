@@ -1,4 +1,4 @@
-package net.monzabi.packetapi;
+package net.ilovepackets.packetapi;
 
 import lombok.Getter;
 import lombok.Setter;

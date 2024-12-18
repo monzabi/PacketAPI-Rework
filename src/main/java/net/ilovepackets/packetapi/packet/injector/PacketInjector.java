@@ -1,4 +1,4 @@
-package net.monzabi.packetapi.packet.injector;
+package net.ilovepackets.packetapi.packet.injector;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
@@ -6,8 +6,8 @@ import io.netty.handler.codec.MessageToMessageDecoder;
 import lombok.Getter;
 import lombok.Setter;
 import net.minecraft.server.v1_8_R3.Packet;
-import net.monzabi.packetapi.packet.PacketEvent;
-import net.monzabi.packetapi.util.INet;
+import net.ilovepackets.packetapi.packet.PacketEvent;
+import net.ilovepackets.packetapi.util.INet;
 import org.bukkit.Bukkit;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;

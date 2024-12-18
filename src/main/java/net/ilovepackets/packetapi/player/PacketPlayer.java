@@ -1,4 +1,4 @@
-package net.monzabi.packetapi.player;
+package net.ilovepackets.packetapi.player;
 
 import lombok.AllArgsConstructor;
 import net.minecraft.server.v1_8_R3.Packet;

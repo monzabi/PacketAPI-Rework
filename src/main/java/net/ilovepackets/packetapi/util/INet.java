@@ -1,4 +1,4 @@
-package net.monzabi.packetapi.util;
+package net.ilovepackets.packetapi.util;
 
 public interface INet {
     void inject();

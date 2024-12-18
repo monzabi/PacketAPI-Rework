@@ -1,7 +1,7 @@
-package net.monzabi.packetapi.packet.logger;
+package net.ilovepackets.packetapi.packet.logger;
 
 import net.minecraft.server.v1_8_R3.Packet;
-import net.monzabi.packetapi.PacketAPI;
+import net.ilovepackets.packetapi.PacketAPI;
 import org.bukkit.entity.Player;
 
 import java.io.File;

@@ -1,4 +1,4 @@
-package net.monzabi.packetapi.packet;
+package net.ilovepackets.packetapi.packet;
 
 import lombok.Getter;
 import net.minecraft.server.v1_8_R3.Packet;
@@ -76,5 +76,9 @@ public class PacketEvent extends Event implements Cancellable {
     @Override
     public void setCancelled(boolean cancel) {
         this.cancel = cancel;
+    }
+
+    public Packet<?> getPacket() {
+        return this.packet;
     }
 }

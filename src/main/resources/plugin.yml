@@ -1,0 +1,4 @@
+name: PacketAPI
+version: 1.0
+author: ilovepackets
+main: net.ilovepackets.packetapi.PacketAPI
